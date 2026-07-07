@@ -1,3 +1,5 @@
+<img width="426" height="560" alt="image" src="https://github.com/user-attachments/assets/f4bb1c99-d093-4d67-9f40-a51dc4a43985" />
+
 # MediaFire Link Extractor
 
 Extensão para Chrome que escaneia a página aberta, coleta todos os links do MediaFire e permite baixar cada um ou todos de uma vez. O download é **direto**: a extensão abre cada página do MediaFire em segundo plano, extrai o link real do arquivo e dispara o download pelo Chrome.
