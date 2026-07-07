@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>MediaFire Extractor</h1>
+    <span id="count" class="count">0 links</span>
+  </header>
+
+  <div class="toolbar">
+    <button id="scanBtn" class="btn primary">Escanear página</button>
+    <button id="downloadAllBtn" class="btn success" disabled>Baixar todos</button>
+  </div>
+
+  <div class="options">
+    <label for="concurrency">Baixar simultaneamente:</label>
+    <input id="concurrency" type="number" min="1" max="16" step="1" value="4">
+    <span class="hint">por vez</span>
+  </div>
+
+  <div id="status" class="status"></div>
+
+  <ul id="list" class="list">
+    <li class="empty">Clique em "Escanear página" para procurar links do MediaFire.</li>
+  </ul>
+
+  <footer>
+    <small>Download direto: cada página é aberta em segundo plano para extrair o arquivo real.</small>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
