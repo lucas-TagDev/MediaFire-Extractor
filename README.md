@@ -32,3 +32,4 @@ O `background.js` faz `fetch` da página de cada arquivo no MediaFire e procura 
 ## Ícone (opcional)
 
 A extensão funciona sem ícone próprio (o Chrome usa um padrão). Para adicionar um, coloque `icon16.png`, `icon48.png` e `icon128.png` numa pasta `icons/` e adicione de volta os campos `default_icon`/`icons` no `manifest.json`.
+<img width="1361" height="927" alt="image" src="https://github.com/user-attachments/assets/de8cb9e2-b872-479e-ab29-a662085a521f" />
